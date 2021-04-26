@@ -3,7 +3,6 @@ class Circle {
         this.radius = radius;
     }
 
-    // this is a prototype method
     draw() {
         console.log('draw');
     }
