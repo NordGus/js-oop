@@ -1,3 +1,6 @@
+// Symbol() === Symbol() = false.
+// Unless you compare the same stored value two symbols aren't the same
+
 const _radius = Symbol();
 const _draw = Symbol();
 class Circle {
